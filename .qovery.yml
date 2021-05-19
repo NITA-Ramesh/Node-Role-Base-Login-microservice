@@ -1,0 +1,11 @@
+---
+application:
+  name: "node-role-base-login-microservice"
+  project: "node microservice rolebase login"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-node-role-base-login-microservice"
+  routes:
+  - application_name: "node-role-base-login-microservice"
+    paths:
+    - "/*"
