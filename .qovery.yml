@@ -3,6 +3,10 @@ application:
   name: "node-role-base-login-microservice"
   project: "node microservice rolebase login"
   organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "test"
+  version: "4.4"
 routers:
 - name: "main-node-role-base-login-microservice"
   routes:
